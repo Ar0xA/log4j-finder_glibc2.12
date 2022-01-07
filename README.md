@@ -15,3 +15,5 @@ To reproduce:<br>
 - git clone https://github.com/fox-it/log4j-finder.git<br>
 - cd log4j-finder<br>
 - ~/.local/bin/pyinstaller --onefile log4j-finder.spec<br>
+<br>
+if all goes well in the ./dist/ directory your binary will be ready <br>
