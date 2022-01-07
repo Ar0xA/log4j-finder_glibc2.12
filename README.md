@@ -4,6 +4,7 @@ Source code: https://github.com/fox-it/log4j-finder <br>
 To reproduce:<br>
 - Install centos6<br>
 - Edit /etc/yum.repos.d/CentOS-Base.repo \[base\] section. Comment out mirrorlist, set baseurl=https://vault.centos.org/centos/$releasever/os/$basearch/ and sslverify=0 <br>
+- yum update <br>
 - Install build dependencies: wget curl gcc openssl-devel bzip2-devel<br>
 - download Python 3.6.6 build package from https://www.python.org/ftp/python/3.6.6/Python-3.6.6.tgz<br>
 - Unzip and run ./configure --enabled-shared --enable-optimizations<br>
